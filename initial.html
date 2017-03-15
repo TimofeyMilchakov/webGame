@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: url(images/fon.jpg);
+            background-size: cover;
+            font-family: "Times New Roman";
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+<canvas id="canvas" width="600" height="400" style="border: 2px solid black"></canvas>
+<script src="obj.js"> </script>
+<script src="map.js"> </script>
+<script src="manager.js"> </script>
+<script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    gameManager.play()
+</script>
+
+</div>
+</body>
+</html>
